@@ -75,7 +75,7 @@ class ChatBot:
     ) -> ChatPromptTemplate:
 
         # Retrieval fields
-        persist_directory = "docs/chroma/"
+        persist_directory = "chroma/"
         embedding = OpenAIEmbeddings()
         vectordb = Chroma(
             persist_directory=persist_directory, embedding_function=embedding

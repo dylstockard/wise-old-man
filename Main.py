@@ -26,7 +26,7 @@ def main():
 
 
     # ItemLookUp general test
-    query = "How many clues is the abyssal whip used in?"
+    query = "I need a two handed weapon"
     
     whip_look_up_tool = LookUpTool("Abyssal Whip")
     d_scim_look_up_tool = LookUpTool("Dragon Scimitar")
